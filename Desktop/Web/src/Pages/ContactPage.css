@@ -1,0 +1,9 @@
+.icon{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.icon i{
+    font-size: 1.3rem;
+    color: darkblue;
+}

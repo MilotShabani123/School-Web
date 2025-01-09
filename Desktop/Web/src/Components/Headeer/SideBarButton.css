@@ -1,0 +1,27 @@
+.toggel-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: transparent;
+    height: 24px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.toggel-button:focus{
+    outline: none;
+}
+
+.toggel_button_line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 250, 250);
+}
+
+.toggel-button:hover,
+.toggel-button:active{
+    background-color: transparent;
+}

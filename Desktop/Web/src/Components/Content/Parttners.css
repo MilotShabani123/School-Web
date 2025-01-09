@@ -1,0 +1,15 @@
+
+.img-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 500px;
+}
+
+.img-container img {
+    width: 150px;
+    height: 83px;
+}

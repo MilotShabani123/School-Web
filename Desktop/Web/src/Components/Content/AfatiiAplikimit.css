@@ -1,0 +1,28 @@
+
+.content-2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.content-2 h1{
+    border-bottom: 1px solid darkblue;
+    color: grey;
+}
+
+.content-2 button{
+    margin-top: 5%;
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.content-2 a{
+    color: black;
+    text-decoration: none;
+}

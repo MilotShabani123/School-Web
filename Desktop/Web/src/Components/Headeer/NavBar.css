@@ -1,0 +1,68 @@
+.wrapper{
+    position: static;
+    background: url(./src/Images/school.jpeg)
+     no-repeat center center;
+    min-height: 30rem;
+    z-index: -1;
+}
+
+
+
+.paragraphs{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 8rem;
+    padding-bottom: 0px;
+}
+
+.paragraphs h1{
+    color: white;
+    line-height: 45px;
+}
+
+.paragraphs p{
+    color: gray;
+    margin-top: 1%;
+}
+
+.btn-1{
+    background-color: hsl(16, 100%, 50%);
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2%;
+}
+
+.btn-1:hover{
+    background-color: hsla(16, 100%, 50%, 0.472);
+}
+
+.buttons{
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.btn-3{
+    padding: 0.7rem 2rem;
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    width: 250px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.btn-3:hover{
+    opacity: 0.9;
+}
+
+@media (max-width: 788px) {
+    .buttons{
+        display: none;
+    }
+}
+

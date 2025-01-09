@@ -1,0 +1,141 @@
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.h1 {
+    padding: 10px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    color: #444;
+    letter-spacing: -2px;
+    font-size: 51px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: times, 'Times New Roman', georgia ,serif, ;
+}
+
+.profilet {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.profili-1 {
+    position: relative;
+    background-color: gray;
+    background-image: url(./src/images/Programming.jpg);
+    padding: 0px;
+    height: 280px;
+    width: 50%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+.profili-1 h1 {
+    color: aliceblue;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+.profili-1 a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.profili-2 {
+    position: relative;
+    background-color: gray;
+    background-image: url(./src/images/medschool.jpg);
+    padding: 0px;
+    height: 280px;
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+
+.profili-2 h1 {
+    color: aliceblue;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.profili-2 a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.see-more {
+    position: relative;
+    display: flex;
+    border: 3px solid;
+    border-color: #f8434b;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+    width: 96%;
+    margin-left: 2%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.see-more {
+    color: #f8434b;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.see-more:hover{
+    background-color: #f8434b;
+    color: white;
+    transition: 0.4s ease;
+    transform-origin: bottom center;
+}
+
+
+
+@media (max-width:651px) {
+    .profilet {
+        flex-direction: column;
+        align-items: center;       
+    }
+
+    .profili-1{
+        width: 90%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .profili-2{
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
